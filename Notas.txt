@@ -1,0 +1,17 @@
+Tres Esquinas, 20/10/22
+Reloj con temperatura
+
+Displays de 7 segmentos
+Medición de parámetros
+
+tipo de display : ánodo común
+segmento: pieza de 6 led de alto brillo color blanco
+corriente de cada segmento: 80 - 200mA
+consumo de todo el display: 600mA
+7 = 557
+6 = 536
+5 = 508
+4 = 466
+3 = 399
+2 = 306
+1 = 196
