@@ -40,7 +40,7 @@ void loop()
     delay(1000);
     
     digitalWrite(LATCH, LOW);                     // Pin LATCH en estado bajo
-    shiftOut(DATA, CLK, MSBFIRST, disp[unidadSegundos]);        // Envia el dato
+    shiftOut(DATA, CLK, MSBFIRST, disp[unidadSegundos]);        // Envia el dato.
     shiftOut(DATA, CLK, MSBFIRST, disp[decenaSegundos]);
     unidadSegundos++;
     if (unidadSegundos == 10) {
